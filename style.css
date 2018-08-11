@@ -1,0 +1,73 @@
+/**
+* Homework 1 CSS File
+**/
+
+body {    
+  }
+  
+#header {
+    text-align: center;
+    border-color: red;
+    border-style: solid;
+    border-width: 5px;
+}
+  
+#nav {
+    text-align: center;
+    border-color: red;
+    border-style: solid;
+    border-width: 5px;
+  }
+  
+#aside{
+    text-align: center;
+    float: right;
+    width: 33%;
+    height: 200px;
+    padding: 20px;
+    margin-left: 30px;
+    background: purple;
+    border: 5px solid red;
+  }
+  
+.group {
+    text-align: center;
+    float: left;
+    width: 33%;
+    height: 200px;
+    padding: 20px;
+    margin-left: 30px;
+    border: 5px solid green;
+  }
+
+.group2 {
+    text-align: center;
+    border: 5px solid blue;
+    border-width: 5px;
+    background-color: blue
+  }
+
+#h123 {
+    text-align: center;
+    border: 5px solid orange;
+    background-color: white
+  }
+
+#p {
+    text-align: center;
+    border: 5px solid red;
+    background-color: white
+  }
+
+
+
+
+footer {
+    text-align: center;
+    border-color: red;
+    border-style: solid;
+    border-width: 5px;
+    clear: both;
+  }
+  
+  
