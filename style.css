@@ -2,72 +2,79 @@
 * Homework 1 CSS File
 **/
 
-body {    
+body { 
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777;
+  background-color: #777;
+  width: 960px;
+  font-size: 18px; 
   }
   
 #header {
     text-align: center;
-    border-color: red;
-    border-style: solid;
-    border-width: 5px;
+    height: 50px;
+    margin-bottom: 5px;
+    background-color: #ebebeb;
 }
   
 #nav {
-    text-align: center;
-    border-color: red;
-    border-style: solid;
-    border-width: 5px;
+  text-align: center;
+  height: 50px;
+  margin-bottom: 5px;
+  background-color: #ebebeb;
   }
   
 #aside{
     text-align: center;
     float: right;
-    width: 33%;
     height: 200px;
-    padding: 20px;
-    margin-left: 30px;
-    background: purple;
-    border: 5px solid red;
-  }
+    width: 40%;
+    padding-bottom: 35px;
+    margin-botton: 10px;
+    background-color: #ebebeb;
+    color: #777;
+  } 
   
 .group {
     text-align: center;
-    float: left;
-    width: 33%;
-    height: 200px;
-    padding: 20px;
-    margin-left: 30px;
-    border: 5px solid green;
+    width: 495px;
+    color: #777;
+    margin-bottom: 10px;
+    background-color: #ebebeb;
   }
 
 .group2 {
     text-align: center;
-    border: 5px solid blue;
-    border-width: 5px;
-    background-color: blue
+    background-color: #777
   }
+
+#article{
+    color: #ebebeb;
+    background-color: #777;
+  }
+
 
 #h123 {
     text-align: center;
-    border: 5px solid orange;
-    background-color: white
+    background-color: white;
+    margin-bottom: 5px;
   }
 
 #p {
     text-align: center;
-    border: 5px solid red;
-    background-color: white
+    margin-bottom: 5px;
+    background-color: white;
   }
 
 
 
 
 footer {
-    text-align: center;
-    border-color: red;
-    border-style: solid;
-    border-width: 5px;
-    clear: both;
+  text-align: center;
+  height: 50px;
+  margin-top: 5px;
+  background-color: #ebebeb;
+  clear: both;
   }
   
   
